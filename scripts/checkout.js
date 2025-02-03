@@ -11,15 +11,14 @@ Promise.all([
         loadProducts(() => {
             resolve('value1');
         });
-
+    
     }),
     new Promise((resolve) => {
         loadCart(() => {
             resolve();
         });
     })
-]).then((values) => {
-    console.log(values);
+]).then(() => {
     renderOrderSummary();
     renderPaymentSummary();
 });

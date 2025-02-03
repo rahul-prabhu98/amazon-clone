@@ -10,7 +10,7 @@ The Amazon Clone is a web application that demonstrates the implementation of ke
 **- Order History**: View past orders and their status
 
 # Technologies Used
-**Frontend**: HTML5, CSS3
+**Frontend**: HTML5, CSS3\
 **Backend**: Javascript
 
 # License
